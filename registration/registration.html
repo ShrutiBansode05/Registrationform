@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+    background-color:#cfbaf0;
+}
+
+h2{
+    text-align:center;
+}
+
+.heading{
+    height:50px;
+    width:535px;
+    background-color: #8eecf5;
+    margin-left:380px;
+    margin-top:50px;
+    display:inline-block;
+
+
+}
+
+.headform{
+    height: 440px;
+    width: 480px;
+    background-color: white;
+    line-height:35px;
+    padding-left:50px;
+    padding-top:40px;
+    border-style:solid;
+    margin-left:380px;
+    font-size:20px;
+    border-color:white;
+    
+}
+
+input{
+    height:25px;
+    width: 400px;
+}
+
+button{
+    margin-left:150px;
+    height:40px;
+    width:150px;
+    background-color:#8eecf5;
+    margin-top:50px;
+    border-color:white;
+    font-size:19px;
+}
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <h2>Registration</h2>
+    </div>
+    <div class="headform">
+        <form method="post" action="/register">
+            <label>Name</label>
+            <br>
+            <input type="text" id=" " name="name" placeholder="Enter your name">
+            <br>
+            <label>Email</label>
+            <br>
+            <input type="email" id=" " name="email" placeholder="Enter your email">
+            <br>
+            <label>Password</label>
+            <br>
+            <input type="password" id=" " name="password" placeholder="Enter your password">
+            <br>
+            <label>Confirm password</label>
+            <br>
+            <input type="password" id=" " name="confirmpassword" placeholder="Enter your password again">
+            <br>
+            <button type="submit" class="btn btn-primary btn-block mb-4">Register</button>
+        </form>
+    </div>
+</body>
+</html>
